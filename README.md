@@ -11,7 +11,7 @@ What neural network does is, it tries to extract the “important points” from
 
 <img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test2.jpg">
 
-## Procedure Involved
+## Procedure Involved:
 * We first define the loss functions necessary to generate our result, namely the style loss, content loss and the total variational  loss.
 * We define our optimization function, i.e. back propagation algorithm. Here we use L-BFGS because it’s faster and more efficient for smaller data.
 * Then we set our style and content attributes of our model.
